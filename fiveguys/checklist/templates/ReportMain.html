@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<link href="static/js/jquery.datepick.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="static/js/jquery.plugin.js"></script>
+<script src="static/js/jquery.datepick.js"></script>
+
+<link href = "static/css/bootstrap.css" rel = "stylesheet">
+
+<link href = "../../../../../Desktop/Templates%202/login.css" rel = "stylesheet" type="text/css">
+<script src="static/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+<div style="text-align: left;">
+<div class = "navbar navbar-fixed-top">
+
+	<div class = "navbar-inner">
+
+		<div class = "container">
+
+			<a class = "btn btn-navbar" data-toggle = "collapse" data-target = ".nav-collapse">
+				<i class = "icon-tasks"></i>
+				</a>
+
+			<a href = "#" class = "brand">Five Guys Burgers and Fries</a>
+
+			<div class = "nav-collapse collapse">
+
+				<ul class = "nav pull-right">
+					<li><a href = "/AdminHome">Home</a></li>
+					<li class = "dropdown">
+
+					
+					<li><a href = "/users">Users</a></li>
+					<li calss=active><a href = "#">Reporting </a></li>
+					<li><a href = "/Settings">Settings </a></li>
+					<li><a href = "/Template">Checklists </a></li>
+					<li><a href = "/New_Location">Store Locations</a></li>
+
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div> <!-- End navbar -->
+
+<div style="text-align: center;">
+<br/><br/><br/><br/><br/>
+	<div style="box-sizing: border-box; display: inline-block; width: auto; max-width: 480px; background-color: #FFFFFF; border: 2px solid #D4D4D4; border-radius: 5px; box-shadow: 0px 0px 8px #D4D4D4; margin: 50px auto auto;">
+<div style="background: #D4D4D4; border-radius: 5px 5px 0px 0px; padding: 15px;"><span style="font-family: verdana,arial; color: #000000; font-size: 1.00em; font-weight:bold;">Reports</span></div>
+<div style="background: ; padding: 15px">
+<style type="text/css" scoped>
+	td { text-align:left}
+	</style>
+<form action="">
+<tr><td><input type="radio" name="ReportType" value="Summary Report"> </td><td> Summary Report&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td><input type="radio" name="ReportType" value="Checklist Lookup"> </td><td> Checklist Lookup</td></tr>
+</form>
+<br/>
+<table class='center'>
+<tr><td>Select Template</td><td> <select>
+			<option value=""></option>
+  			<option value="template2">Template 1</option>
+  			<option value="template3">Template 2</option><select/></td></tr>
+<tr><td>User ID</td><td> <input type="text" name="UserID" value=""></td></tr>
+<tr><td>Store Location</td><td> <select>
+			<option value=""></option>
+  			<option value="royalOak">Royal Oak</option>
+  			<option value="waterford">Waterford</option> <select/></td></tr>
+<tr><td>From Date</td><td>  <input type="text" class="popupDatepicker"></td></tr>
+<tr><td>To Date</td><td>  <input type="text" class="popupDatepicker"</td></tr>
+
+<tr><td></td><td><FORM METHOD="LINK" ACTION="">
+<INPUT TYPE="submit" VALUE="Search">
+</FORM></td></tr>
+<tr><td colspan=2>&nbsp;</td></tr>
+<script>
+$(function() {
+	$('.popupDatepicker').datepick();
+	$('.inlineDatepicker').datepick({onSelect: showDate});
+});
+
+</script>
+
+</body>
+</html>
+
