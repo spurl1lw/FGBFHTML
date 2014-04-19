@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Five Guys Login</title>
+<title>Five Guys Checklists</title>
 
 <style type="text/css">
 
@@ -43,24 +43,24 @@ img {
 <pre><br><br></pre>
 
  
-<form action="this is the path the submit button takes you" method="post" enctype="text/plain">
+<form action="" method="post" enctype="text/plain">
  
  	<p><br>
     
   	Template ID: &nbsp; &nbsp; &nbsp; 
   		<select>
-  			<option value="template1">Template 1</option>
-  			<option value="template2">Template 2</option>
-  			<option value="template3">Template 3</option>
+  			{% for Template in Templates %}
+             <option value="">{{ Template.templatename }}</option>
+            {% endfor %}
   		</select>
              
              <br><br>
               
 	Store Location: &nbsp;
     	<select>
-  			<option value="grandBlanc">Grand Blanc</option>
-  			<option value="royalOak">Royal Oak</option>
-  			<option value="waterford">Waterford</option>
+  			{% for Store in Stores %}
+    <option value="">{{ Store.storeid }}</option>
+{% endfor %}
   		</select> 
 			  
               <br><br>

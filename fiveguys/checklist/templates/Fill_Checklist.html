@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<br><br><br><br><br><br><br><br>
+<div align="center">
+
+{% for Template in Templates %}
+    {{ Template.templatename }}
+
+ {% for Item in Items %}
+  <input type="text" id="stidvalue" value="{{ Item.description }}"><br>
+    {% endfor %}
+
+{% endfor %}
+</div>
+</body>
+
+</html>

@@ -36,15 +36,16 @@
 			<div class = "nav-collapse collapse">
 
 				<ul class = "nav pull-right">
-					<li><a href = "/AdminHome">Home</a></li>
+					<li><a href = "{% url 'admin_home' %}">Home</a></li>
 					<li class = "dropdown">
 
-					
-					<li><a href = "/users">Users</a></li>
-					<li><a href = "/reports">Reporting </a></li>
-					<li class=active><a href = "#">Settings </a></li>
-					<li><a href = "/Template">Checklists </a></li>
-					<li><a href = "/New_Location">Store Locations</a></li>
+
+					<li><a href = "{% url 'Users' %}">Users</a></li>
+					<li><a href = "{% url 'Users' %}">Reporting </a></li>
+					<li class="active"><a href = "#">Settings </a></li>
+					<li><a href = "{% url 'Create_Template' %}">Create Checklists </a></li>
+					<li><a href = "{% url 'new_location' %}">Store Locations</a></li>
+                    <li><a href = "{% url 'Login' %}">Logout</a></li>
 
 				</ul>
 			</div>
