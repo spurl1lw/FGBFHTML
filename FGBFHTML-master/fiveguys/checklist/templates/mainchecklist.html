@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load staticfiles %}
+    <link href = "{% static "css/bootstrap.css" %}" rel = "stylesheet">
+		<link href ="{% static "css/bootstrap-responsive.css" %}" rel = "stylesheet">
+
+
+   		<script src="{% static "js/bootstrap.min.js" %}"></script>
+<style>
+#customers
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#customers td, #customers th 
+{
+font-size:1em;
+border:1px solid #000000;
+padding:3px 7px 2px 7px;
+}
+#customers th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#ffffff;
+color:#000000;
+}
+#customers tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+</style>
+</head>
+
+<body>
+<div style="text-align: left;">
+<div class = "navbar navbar-fixed-top">
+
+	<div class = "navbar-inner">
+
+		<div class = "container">
+
+			<a class = "btn btn-navbar" data-toggle = "collapse" data-target = ".nav-collapse">
+				<i class = "icon-tasks"></i>
+				</a>
+
+			<a href = "#" class = "brand">Five Guys Burgers and Fries</a>
+
+			<div class = "nav-collapse collapse">
+
+				<ul class = "nav pull-right">
+					<li><a href = "{% url 'manager_home' %}">Home</a></li>
+					<li class = "dropdown">
+
+
+
+                    <li><a href = "{% url 'Login' %}">Logout</a></li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div> <!-- End navbar -->
+    <br> <br><br><br><br>
+
+<table id="customers">
+<tr>
+  <th>Items</th>
+  <th>Pass</th>
+  <th>Fail</th>
+     <th>N/A</th>
+</tr>
+    <!--tr><th>Salad Bar</th></tr-->
+
+{% for Item in Items %}
+
+<tr class="alt">
+<td>{{ Item.description }}</td>
+<td><div align="center"></div><input type="checkbox"> </td>
+<td><div align="center"></div><input type="checkbox"> </td>
+<td><div align="center"></div><input type="checkbox"> </td>
+</tr>
+
+{% endfor %}
+
+
+</table>
+    <br><br>
+ <form action="{% url 'manager_home' %}">
+	<input type="submit" value="Submit" id="chec">
+    </form>
+
+
+
+
+
+
+
+
+</body>
+</html>

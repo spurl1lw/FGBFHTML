@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+{% load staticfiles %}
+<head>
+<meta charset="utf-8">
+<title>Five Guys Checklists</title>
+    <link href = "{% static "css/bootstrap.css" %}" rel = "stylesheet">
+		<link href ="{% static "css/bootstrap-responsive.css" %}" rel = "stylesheet">
+		<link href ="{% static "login.css" %}" rel = "stylesheet" type="text/css">
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   		<script src="{% static "js/bootstrap.min.js" %}"></script>
+
+
+<style type="text/css">
+
+/* h1 { 
+	IF YOU WANT TO GET RID OF IMAGE PUT TITLE INFO HERE 
+}*/
+
+body {
+	text-align: center;
+	font-size: medium;
+
+	background-color: #CE2029;
+	color: #000000;
+}
+p {
+	border-style: solid;
+	border-color: #FFFFFF;
+	padding-bottom: 20px;
+	position: fixed;
+	top: 500px;
+	left: 335px;
+	bottom: 130px;
+	right: 335px;
+}
+img {
+	float: top;
+	margin-top: 25px;
+	margin-right: 12px;
+	margin-left: 12px;
+	padding-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<div style="text-align: left;">
+<div class = "navbar navbar-fixed-top">
+
+	<div class = "navbar-inner">
+
+		<div class = "container">
+
+			<a class = "btn btn-navbar" data-toggle = "collapse" data-target = ".nav-collapse">
+				<i class = "icon-tasks"></i>
+				</a>
+
+			<a href = "#" class = "brand">Five Guys Burgers and Fries</a>
+
+			<div class = "nav-collapse collapse">
+
+				<ul class = "nav pull-right">
+					<li><a href = "{% url 'manager_home' %}">Home</a></li>
+					<li class = "dropdown">
+
+
+
+                    <li><a href = "{% url 'Login' %}">Logout</a></li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div> <!-- End navbar -->
+<br>
+
+<h1><center><img src="{% static "fiveGuys.jpg" %}" alt="5 Guys Logo"></center></h1>
+
+
+ <div style="text-align: center;">
+<div style="box-sizing: border-box; display: inline-block; width: auto; max-width: 480px; background-color: #FFFFFF; border: 2px solid #D4D4D4; border-radius: 5px; box-shadow: 0px 0px 8px #D4D4D4; margin: 50px auto auto;">
+<div style="background: #D4D4D4; border-radius: 5px 5px 0px 0px; padding: 15px;"><span style="font-family: verdana,arial; color: #000000; font-size: 1.00em; font-weight:bold;">Start a Checklist</span></div>
+<div style="background: ; padding: 15px">
+<style type="text/css" scoped>
+td { text-align:left}
+	</style>
+<form action="" method="post" enctype="text/plain">
+  {%  csrf_token %}
+ 	<br>
+    
+  	Template ID:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  		<select id="TemplateValue">
+  			{% for Template in Templates %}
+             <option value="">{{ Template.templatename }}</option>
+            {% endfor %}
+  		</select>
+             
+             <br><br>
+              
+	Store Location: &nbsp;
+    	<select id="LocationValue">
+  			{% for Store in Stores %}
+    <option value="">{{ Store.storeid }}</option>
+{% endfor %}
+  		</select> 
+			  
+              <br><br>
+ </form>
+<form action="{% url 'mainchecklist' %}">
+	<input type="submit" value="Create" id="checkliststart">
+    </form>
+
+
+
+<script>
+    var TemplateValue = 0
+    $("#TemplateValue").on("change", function() {
+        TemplateValue = $("#TemplateValue").val()
+    })
+    var LocationValue = 0
+    $("#LocationValue").on("change", function() {
+        LocationValue = $("#LocationValue").val()
+    })
+
+    $("#checkliststart").on("click", function() {
+        $.get("{% url 'manager_home' %}",{'TemplateValue':TemplateValue},function(data){console.log(data)})
+        $.get("{% url 'manager_home' %}",{'LocationValue':LocationValue},function(data){console.log(data)})
+    })
+
+</script>
+</body>
+</html>

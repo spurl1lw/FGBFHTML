@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+{% load staticfiles %}
+<head>
+<meta charset="utf-8">
+<title>Email Report Setting</title>
+
+    <link href = "{% static "css/bootstrap.css" %}" rel = "stylesheet">
+		<link href ="{% static "css/bootstrap-responsive.css" %}" rel = "stylesheet">
+		<link href ="{% static "login.css" %}" rel = "stylesheet" type="text/css">
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   		<<script src="{% static "js/bootstrap.min.js" %}"></script>
+
+<style type="text/css">
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<div style="text-align: left;">
+<div class = "navbar navbar-fixed-top">
+
+	<div class = "navbar-inner">
+
+		<div class = "container">
+
+			<a class = "btn btn-navbar" data-toggle = "collapse" data-target = ".nav-collapse">
+				<i class = "icon-tasks"></i>
+				</a>
+
+			<a href = "#" class = "brand">Five Guys Burgers and Fries</a>
+
+			<div class = "nav-collapse collapse">
+
+				<ul class = "nav pull-right">
+					<li><a href = "{% url 'admin_home' %}">Home</a></li>
+					<li class = "dropdown">
+
+
+					<li><a href = "{% url 'Users' %}">Users</a></li>
+					<li><a href = "{% url 'report' %}">Reporting </a></li>
+					<li class="active"><a href = "#">Settings </a></li>
+					<li><a href = "{% url 'Create_Template' %}">Create Checklists </a></li>
+					<li><a href = "{% url 'new_location' %}">Store Locations</a></li>
+                    <li><a href = "{% url 'Login' %}">Logout</a></li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div> <!-- End navbar -->
+
+<br/><br/><br/><br/><br/>
+ 
+<div style="text-align: center;">
+ 		<div style="box-sizing: border-box; display: inline-block; width: auto; max-width: 480px; background-color: #FFFFFF; border: 2px solid #D4D4D4; border-radius: 5px; box-shadow: 0px 0px 8px #D4D4D4; margin: 50px auto auto;">
+<div style="background: #D4D4D4; border-radius: 5px 5px 0px 0px; padding: 15px;"><span style="font-family: verdana,arial; color: #000000; font-size: 1.00em; font-weight:bold;">Daily Reports</span></div>
+<div style="background: ; padding: 15px">
+<style type="text/css" scoped>
+	td { text-align:left}
+</style>
+ 	<p><br>
+    
+   	Receive Daily Email Reports?:<br><br>
+    	Yes <input type="radio"  name="Email" value="YesEmail"> &nbsp;       
+		No  <input type="radio"  name="Email" value="NoEmail">
+              
+             <br><br><br>
+              
+	Search Store Locations: <label for="templateName"></label> &nbsp; 
+              <input type="text" id="templateName">
+			  
+              <br><br>
+               
+	Results:
+    <!-- Add results here -->
+              
+             <br><br>
+              
+	<input type="submit" value="Save">
+  
+   	</p>
+ 
+</form>
+</body>
+</html>

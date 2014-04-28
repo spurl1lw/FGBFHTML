@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+	<head>
+		<title>Admin Home Screen</title>
+		<link href = "{% static "css/bootstrap.css" %}" rel = "stylesheet">
+		<link href ="{% static "css/bootstrap-responsive.css" %}" rel = "stylesheet">
+		<link href ="{% static "login.css" %}" rel = "stylesheet" type="text/css">
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   		<script src="{% static "js/bootstrap.min.js" %}"></script>
+	</head>
+
+<body>
+
+
+
+<div style="text-align: left;">
+<div class = "navbar navbar-fixed-top">
+
+	<div class = "navbar-inner">
+
+		<div class = "container">
+
+			<a class = "btn btn-navbar" data-toggle = "collapse" data-target = ".nav-collapse">
+				<i class = "icon-tasks"></i>
+				</a>
+
+			<a href = "#" class = "brand">Five Guys Burgers and Fries</a>
+
+			<div class = "nav-collapse collapse">
+
+				<ul class = "nav pull-right">
+					<li class=active><a href = "#">Home</a></li>
+					<li class = "dropdown">
+
+					
+					<li><a href = "{% url 'Users' %}">Users</a></li>
+					<li><a href = "{% url 'report' %}">Reporting </a></li>
+					<li><a href = "{% url 'Settings' %}">Settings </a></li>
+					<li><a href = "{% url 'Create_Template' %}">Create Checklists </a></li>
+					<li><a href = "{% url 'new_location' %}">Store Locations</a></li>
+                    <li><a href = "{% url 'Login' %}">Logout</a></li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div> <!-- End navbar -->
+    <br><br><br><br><br>
+    <h1><center><img src="{% static "fiveGuys.jpg" %}" alt="5 Guys Logo"></center></h1>
+	</body>
+</html>
