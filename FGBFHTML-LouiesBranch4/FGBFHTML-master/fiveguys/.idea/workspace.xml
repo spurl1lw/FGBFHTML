@@ -23,64 +23,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Users.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checklist/templates/Users.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="48" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-11.115385" vertical-offset="408" max-vertical-offset="2346">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_location.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/checklist/templates/new_location.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="48" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.40316206" vertical-offset="510" max-vertical-offset="1768">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fiveguys/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SummaryReport.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checklist/templates/SummaryReport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="40" selection-start="3473" selection-end="3473" vertical-scroll-proportion="-20.923077" vertical-offset="918" max-vertical-offset="4335">
+            <state line="67" column="37" selection-start="2068" selection-end="2068" vertical-scroll-proportion="-0.0" vertical-offset="1139" max-vertical-offset="1819">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checklist/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checklist/templates/Users2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="0" selection-start="2909" selection-end="3208" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="2278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountmainchecklist.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checklist/templates/accountmainchecklist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="75" selection-start="2072" selection-end="2072" vertical-scroll-proportion="-0.0" vertical-offset="1411" max-vertical-offset="2227">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/checklist/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="0" selection-start="4453" selection-end="4453" vertical-scroll-proportion="0.0" vertical-offset="1595" max-vertical-offset="2380">
+            <state line="219" column="0" selection-start="6862" selection-end="6862" vertical-scroll-proportion="1.120915" vertical-offset="3380" max-vertical-offset="3927">
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountManagerHome.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checklist/templates/AccountManagerHome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="0" selection-start="2844" selection-end="2844" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2261">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checklist/models.py">
+      <file leaf-file-name="mainchecklist.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checklist/templates/mainchecklist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1207">
+            <state line="83" column="61" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="2227">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reportchecklist.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checklist/templates/reportchecklist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="11" selection-start="2594" selection-end="2694" vertical-scroll-proportion="0.0" vertical-offset="1495" max-vertical-offset="2312">
               <folding />
             </state>
           </provider>
@@ -89,7 +100,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checklist/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -99,15 +110,6 @@
         <entry file="file://$PROJECT_DIR$/fiveguys/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fill_Checklist.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checklist/templates/Fill_Checklist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="24" selection-start="1186" selection-end="1209" vertical-scroll-proportion="-24.846153" vertical-offset="153" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
@@ -124,30 +126,34 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/checklist/templates/ReportMain.html" />
         <option value="$PROJECT_DIR$/checklist/templates/CreateTemplate.html" />
         <option value="$PROJECT_DIR$/checklist/templates/Fill_Checklist.html" />
-        <option value="$PROJECT_DIR$/checklist/templates/Login.html" />
-        <option value="$PROJECT_DIR$/checklist/templates/AdminHome.html" />
         <option value="$PROJECT_DIR$/checklist/templates/Login2.html" />
         <option value="$PROJECT_DIR$/fiveguys/settings.py" />
-        <option value="$PROJECT_DIR$/checklist/templates/ManagerHome.html" />
         <option value="$PROJECT_DIR$/checklist/templates/AutoEmailSetting.html" />
-        <option value="$PROJECT_DIR$/checklist/templates/SummaryReport.html" />
         <option value="$PROJECT_DIR$/checklist/models.py" />
-        <option value="$PROJECT_DIR$/checklist/templates/mainchecklist.html" />
-        <option value="$PROJECT_DIR$/checklist/views.py" />
-        <option value="$PROJECT_DIR$/fiveguys/urls.py" />
+        <option value="$PROJECT_DIR$/checklist/templates/ManagerHome.html" />
+        <option value="$PROJECT_DIR$/checklist/templates/Login.html" />
+        <option value="$PROJECT_DIR$/checklist/templates/Users2.html" />
+        <option value="$PROJECT_DIR$/checklist/templates/AccountManagerHome.html" />
+        <option value="$PROJECT_DIR$/checklist/templates/accountmainchecklist.html" />
+        <option value="$PROJECT_DIR$/checklist/templates/AdminHome.html" />
         <option value="$PROJECT_DIR$/checklist/templates/Users.html" />
+        <option value="$PROJECT_DIR$/fiveguys/urls.py" />
+        <option value="$PROJECT_DIR$/checklist/templates/mainchecklist.html" />
+        <option value="$PROJECT_DIR$/checklist/templates/ReportMain.html" />
+        <option value="$PROJECT_DIR$/checklist/templates/reportchecklist.html" />
+        <option value="$PROJECT_DIR$/checklist/templates/SummaryReport.html" />
+        <option value="$PROJECT_DIR$/checklist/views.py" />
         <option value="$PROJECT_DIR$/checklist/templates/new_location.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1092" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -175,7 +181,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,6 +269,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,6 +292,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan\Desktop\FGBFHTML-LouiesBranch4\FGBFHTML-master\fiveguys\checklist\templates" />
       <recent name="C:\Users\Ryan\Desktop\FGBFHTML-master\fiveguys\checklist\templates\Static" />
       <recent name="C:\Users\Ryan\Desktop\FGBFHTML-master\fiveguys\checklist\templates\Static\js" />
       <recent name="C:\Users\Ryan\Desktop\FGBFHTML-master\fiveguys\checklist\templates\Static\css" />
@@ -480,7 +487,7 @@
       <module name="fiveguys" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="127.0.0.1" />
+      <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="http://127.0.0.1:8000/admin/" />
       <option name="runTestServer" value="false" />
@@ -524,20 +531,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1092" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21328124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.175813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47155687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -566,26 +573,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/checklist/templates/mainchecklist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="9" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="2176" max-vertical-offset="2363" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/new_location.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1666" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiveguys/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="493" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/CreateTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1870" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checklist/templates/AutoEmailSetting.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="49" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.0" vertical-offset="428" max-vertical-offset="1632" />
@@ -603,9 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checklist/templates/ManagerHome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="1033" selection-end="1666" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="2397">
-          <folding />
-        </state>
+        <state line="77" column="0" selection-start="1033" selection-end="1666" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="2397" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fiveguys/settings.py">
@@ -622,16 +607,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checklist/templates/Users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="24" selection-start="1958" selection-end="1973" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1462">
-          <folding />
-        </state>
+        <state line="57" column="24" selection-start="1958" selection-end="1973" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checklist/templates/Fill_Checklist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="20" column="7" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checklist/templates/new_location.html">
@@ -661,9 +642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checklist/templates/ManagerHome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="1377">
-          <folding />
-        </state>
+        <state line="6" column="23" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="1377" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fiveguys/settings.py">
@@ -681,7 +660,9 @@
     <entry file="file://$PROJECT_DIR$/checklist/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,7 +691,9 @@
     <entry file="file://$PROJECT_DIR$/checklist/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="31" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="629">
-          <folding />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -741,33 +724,14 @@
         <state line="1" column="19" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/CreateTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1870" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/AdminHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="25" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="337" max-vertical-offset="986" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="18" selection-start="1993" selection-end="1993" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="935" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="788">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="788" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fiveguys/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fiveguys/__init__.py">
@@ -777,35 +741,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/AutoEmailSetting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="89" selection-end="89" vertical-scroll-proportion="0.11154856" vertical-offset="0" max-vertical-offset="1632" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fiveguys/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="9" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/SummaryReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="40" selection-start="3473" selection-end="3473" vertical-scroll-proportion="-20.923077" vertical-offset="918" max-vertical-offset="4335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/ManagerHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="24" selection-start="2415" selection-end="2538" vertical-scroll-proportion="0.08959157" vertical-offset="1581" max-vertical-offset="2397">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/ReportMain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="-1.060606" vertical-offset="805" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
@@ -817,52 +755,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/Fill_Checklist.html">
+    <entry file="file://$PROJECT_DIR$/checklist/templates/accountmainchecklist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="24" selection-start="1186" selection-end="1209" vertical-scroll-proportion="-24.846153" vertical-offset="153" max-vertical-offset="1037">
+        <state line="83" column="75" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="2227">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/AccountManagerHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="0" selection-start="2844" selection-end="2844" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2261">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/AutoEmailSetting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="89" selection-end="89" vertical-scroll-proportion="-0.9543081" vertical-offset="816" max-vertical-offset="1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/Users2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="2909" selection-end="3208" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/AdminHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="73" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.772997" vertical-offset="329" max-vertical-offset="1003" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/ManagerHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="942" selection-end="962" vertical-scroll-proportion="-0.2611276" vertical-offset="975" max-vertical-offset="2261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/CreateTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="33" selection-start="1033" selection-end="1039" vertical-scroll-proportion="0.47769785" vertical-offset="416" max-vertical-offset="1870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/Fill_Checklist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="24" selection-start="1186" selection-end="1209" vertical-scroll-proportion="-21.307692" vertical-offset="245" max-vertical-offset="1037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="84" selection-start="331" selection-end="407" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fiveguys/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="83" selection-start="1152" selection-end="1165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/checklist/templates/mainchecklist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="15" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.57444006" vertical-offset="822" max-vertical-offset="1921">
+        <state line="83" column="61" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="2227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/ReportMain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="112" selection-start="2414" selection-end="2414" vertical-scroll-proportion="-23.923077" vertical-offset="466" max-vertical-offset="1768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/reportchecklist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="11" selection-start="2594" selection-end="2694" vertical-scroll-proportion="0.0" vertical-offset="1495" max-vertical-offset="2312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/SummaryReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="37" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1819">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checklist/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="0" selection-start="4453" selection-end="4453" vertical-scroll-proportion="0.0" vertical-offset="1595" max-vertical-offset="2380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiveguys/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checklist/templates/Users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="48" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-11.115385" vertical-offset="408" max-vertical-offset="2346">
+        <state line="53" column="19" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.6199678" vertical-offset="465" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/checklist/templates/new_location.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="48" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.40316206" vertical-offset="510" max-vertical-offset="1768">
+        <state line="65" column="21" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.1923077" vertical-offset="1015" max-vertical-offset="1768">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/templates/Users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="4" selection-start="2711" selection-end="2711" vertical-scroll-proportion="0.42735043" vertical-offset="1007" max-vertical-offset="1836">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checklist/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="0" selection-start="6862" selection-end="6862" vertical-scroll-proportion="1.120915" vertical-offset="3380" max-vertical-offset="3927">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

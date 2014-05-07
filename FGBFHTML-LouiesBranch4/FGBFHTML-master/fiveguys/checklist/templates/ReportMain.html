@@ -61,8 +61,8 @@
 	td { text-align:left}
 	</style>
 <form action="">
-<tr><td><input type="radio" name="ReportType" value="Summary Report"> </td><td> Summary Report&nbsp;&nbsp;&nbsp;</td></tr>
-<tr><td><input type="radio" name="ReportType" value="Checklist Lookup"> </td><td> Checklist Lookup</td></tr>
+<!--tr><td><input type="radio" name="ReportType" value="Summary Report"> </td><td> Summary Report&nbsp;&nbsp;&nbsp;</td></tr-->
+<!--tr><td><input type="radio" name="ReportType" value="Checklist Lookup"> </td><td> Checklist Lookup</td></tr-->
 </form>
 <br/>
 <table class='center'>
@@ -81,8 +81,8 @@
 <tr><td>From Date</td><td>  <input type="text" class="popupDatepicker"></td></tr>
 <tr><td>To Date</td><td>  <input type="text" class="popupDatepicker"</td></tr>
 
-<tr><td></td><td><FORM METHOD="LINK" ACTION="">
-<INPUT TYPE="submit" VALUE="Search">
+<tr><td></td><td><FORM link="{% url 'SummaryReport' %}" ACTION="{% url 'SummaryReport' %}">
+<INPUT TYPE="submit" href="" VALUE="Search">
 </FORM></td></tr>
 <tr><td colspan=2>&nbsp;</td></tr>
 <script>

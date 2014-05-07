@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+	<head>
+		<title>Users Page</title>
+
+        <link href = "{% static "css/bootstrap.css" %}" rel = "stylesheet">
+		<link href ="{% static "css/bootstrap-responsive.css" %}" rel = "stylesheet">
+		<link href ="{% static "login.css" %}" rel = "stylesheet" type="text/css">
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   		<script src="{% static "js/bootstrap.min.js" %}"></script>
+	</head>
+
+<body>
+
+
+
+<div class = "navbar navbar-fixed-top">
+
+	<div class = "navbar-inner">
+
+		<div class = "container">
+
+			<a class = "btn btn-navbar" data-toggle = "collapse" data-target = ".nav-collapse">
+				<i class = "icon-tasks"></i>
+				</a>
+
+			<a href = "#" class = "brand">Five Guys Burgers and Fries</a>
+
+			<div class = "nav-collapse collapse">
+
+				<ul class = "nav pull-right">
+
+					<li class = "dropdown">
+
+                    <li><a href = "{% url 'account_manager_home' %}">Home</a></li>
+					<li class="active"><a href = "#">Users</a></li>
+                    <li><a href = "{% url 'Login' %}">Logout</a></li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div> <!-- End navbar -->
+
+
+
+
+	<div style="text-align: center;">
+	<div style="box-sizing: border-box; display: inline-block; width: auto; max-width: 480px; background-color: #FFFFFF; border: 2px solid #D4D4D4; border-radius: 5px; box-shadow: 0px 0px 8px #D4D4D4; margin: 150px auto auto;">
+	<div style="background: #D4D4D4; border-radius: 5px 5px 0px 0px; padding: 15px;"><span style="font-family: verdana,arial; color: #000000; font-size: 1.00em; font-weight:bold;">Create New User</span></div>
+	<div style="background: ; padding: 15px">
+	<style type="text/css" scoped>
+	td { text-align:left; font-family: verdana,arial; color: #000000; font-size: 1.00em; }
+	input { border: 1px solid #CCCCCC; border-radius: 5px; color: #666666; display: inline-block; font-size: 1.00em;  padding: 5px; width: 100%; }
+	input[type="button"], input[type="reset"], input[type="submit"] { height: auto; width: auto; cursor: pointer; box-shadow: 0px 0px 5px #D4D4D4; float: right; margin-top: 10px; }
+	table.center { margin-left:auto; margin-right:auto; }
+	.error { font-family: verdana,arial; color: #000000; font-size: 1.00em; }
+	</style>
+<form method="post" action="#" name="aform" target="_top">
+    {%  csrf_token %}
+<input type="hidden" name="action" value="login">
+<input type="hidden" name="hide" value="">
+<table class='center'>
+<tr><td>Username:</td><td><input type="text" name="login" id="UserID"></td></tr>
+<tr><td>Password:</td><td><input type="password" name="password"id="Password"></td></tr>
+<tr><td>Last Name:</td><td><input type="text" name="login" id="Lname" placeholder="Last Name"></td></tr>
+<tr><td>First Name:</td><td><input type="text" name="login"placeholder="First Name" id="Fname"></td></tr>
+<tr><td>Email Address:</td><td><input type="text" name="login"id="EmailAddress"></td></tr>
+<tr><td>Administrator:</td><td> <input type= "checkbox" name="user type" id="isAdmin"></td></tr>
+<tr><td>Account Manager:</td><td> <input type= "checkbox" name= "user type" id="isAccountManager"></td></tr>
+<tr><td>Manager:</td><td> <input type= "checkbox" name= "user type" id="isManager"></td></tr>
+    <br>
+<tr><td>&nbsp;</td><td><input type="submit" value="Create New User"id="CreateUser"></td></tr>
+<tr><td colspan=2>&nbsp;</td></tr>
+</div>
+</div>
+</div>
+<script>
+ var UserID = 0
+    $("#UserID").on("change", function() {
+        UserID = $("#UserID").val()
+    });
+ var Password = 0
+    $("#Password").on("change", function() {
+        Password = $("#Password").val()
+    });
+ var Lname = 0
+    $("#Lname").on("change", function() {
+        Lname = $("#Lname").val()
+    });
+ var Fname = 0
+    $("#Fname").on("change", function() {
+       Fname  = $("#Fname").val()
+    });
+ var EmailAddress = 0
+    $("#EmailAddress").on("change", function() {
+        EmailAddress = $("#EmailAddress").val()
+    });
+ var isAdmin = 0
+    $("#isAdmin").on("change", function() {
+        isAdmin  = $("#isAdmin").val()
+    });
+ var isManager = 0
+    $("#isManager").on("change", function() {
+        isManager  = $("#isManager").val()
+    });
+ var isAccountManager = 0
+    $("#isAccountManager").on("change", function() {
+        isAccountManager  = $("#isAccountManager").val()
+    });
+
+
+
+    $("#CreateUser").on("click", function() {
+        alert("A New User Has Been Created");
+        $.get("{% url 'Users' %}",{'UserID':UserID},function(data){console.log(data)});
+        $.get("{% url 'Users' %}",{'Password':Password},function(data){console.log(data)});
+        $.get("{% url 'Users' %}",{'Lname':Lname},function(data){console.log(data)});
+        $.get("{% url 'Users' %}",{'Fname':Fname},function(data){console.log(data)});
+        $.get("{% url 'Users' %}",{'EmailAddress': EmailAddress},function(data){console.log(data)});
+        $.get("{% url 'Users' %}",{'isAdmin':isAdmin},function(data){console.log(data)});
+        $.get("{% url 'Users' %}",{'isManager':isManager},function(data){console.log(data)});
+        $.get("{% url 'Users' %}",{'isAccountManager':isAccountManager},function(data){console.log(data)});
+    })
+</script>
+</body>
+</html>

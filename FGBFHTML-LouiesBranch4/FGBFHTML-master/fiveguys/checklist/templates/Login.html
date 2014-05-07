@@ -27,7 +27,7 @@
 
 
 <table class='center'>
-<tr><td>Login:</td><td><input type="text" name="username"id="usname"></td></tr>
+<tr><td>Login:</td><td><input type="text" name="username"id="username"></td></tr>
 <tr><td>Password:</td><td><input type="password" name="password"id="password"></td></tr>
 <tr><td>&nbsp;</td><td><input type="submit" value="Login" id="log"></td></tr>
 <tr><td colspan=2>&nbsp;</td></tr>
@@ -35,16 +35,16 @@
 </table>
 </form>
 </div></div></div>
- <script>
-    var usname = 0
-    $("#usname").on("change", function() {
-        usname = $("#usname").val()
-    })
+ <!--script>
+
+
 
     $("#log").on("click", function() {
-        $.get("{% url 'Login' %}",{'usname':usname},function(data){console.log(data)})
+        $.get("{% url 'Login' %}",{'username':username},{'password':password},function(data){console.log(data)})
+         var username = $("#usname").val()
+         var password = $("#password").val()
     })
 
-</script>
+</script-->
 </body>
 </html>

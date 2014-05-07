@@ -45,7 +45,7 @@ img {
 </head>
 
 <body>
-
+<div class="holder">
 <div style="text-align: left;">
 <div class = "navbar navbar-fixed-top">
 
@@ -62,11 +62,11 @@ img {
 			<div class = "nav-collapse collapse">
 
 				<ul class = "nav pull-right">
-					<li><a href = "{% url 'manager_home' %}">Home</a></li>
+					<li><a href = "{% url 'account_manager_home' %}">Home</a></li>
 					<li class = "dropdown">
 
 
-
+                    <li><a href = "{% url 'Users2' %}">Users</a></li>
                     <li><a href = "{% url 'Login' %}">Logout</a></li>
 
 				</ul>
@@ -87,14 +87,11 @@ img {
 <style type="text/css" scoped>
 td { text-align:left}
 	</style>
-<form action="" method="post" enctype="text/plain">
-  {%  csrf_token %}
- 	<br>
-    
+
   	Template ID:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
   		<select id="TemplateValue">
   			{% for Template in Templates %}
-             <option value="">{{ Template.templatename }}</option>
+             <option value='{{ Template.id }}'>{{ Template.templatename }}</option>
             {% endfor %}
   		</select>
              
@@ -103,31 +100,26 @@ td { text-align:left}
 	Store Location: &nbsp;
     	<select id="LocationValue">
   			{% for Store in Stores %}
-    <option value="">{{ Store.storeid }}</option>
+    <option value='{{ Store.pk }}'>{{ Store.storeid }}</option>
 {% endfor %}
   		</select> 
 			  
               <br><br>
- </form>
-<form action="{% url 'mainchecklist' %}">
+
 	<input type="submit" value="Create" id="checkliststart">
-    </form>
+</div>
 
 
 
 <script>
-    var TemplateValue = 0
-    $("#TemplateValue").on("change", function() {
-        TemplateValue = $("#TemplateValue").val()
-    })
-    var LocationValue = 0
-    $("#LocationValue").on("change", function() {
-        LocationValue = $("#LocationValue").val()
-    })
+    $("#checkliststart").on("click", function(){
+        var TemplateValue = $('#TemplateValue').val()
+        var LocationValue = $("#LocationValue").val()
+        $.get("{% url 'accountmainchecklist' %}",{'TemplateValue':TemplateValue,'LocationValue':LocationValue},function(data){
+            console.log(data)
+            $('.holder').html(data)
+        })
 
-    $("#checkliststart").on("click", function() {
-        $.get("{% url 'manager_home' %}",{'TemplateValue':TemplateValue},function(data){console.log(data)})
-        $.get("{% url 'manager_home' %}",{'LocationValue':LocationValue},function(data){console.log(data)})
     })
 
 </script>

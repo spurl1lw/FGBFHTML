@@ -21,6 +21,10 @@ urlpatterns = patterns('',
       url(r'^Checklist/', 'checklist.views.fill_checklist',name='Fill_Checklist'),
        url(r'^FillChecklist/', 'checklist.views.mainchecklist',name='mainchecklist'),
         url(r'^SummaryReport/', 'checklist.views.summaryreport',name='SummaryReport'),
+         url(r'^EditUsers/', 'checklist.views.Users2',name='Users2'),
+          url(r'^account_manager_home/', 'checklist.views.account_manager_home',name='account_manager_home'),
+          url(r'^accountFillChecklist/', 'checklist.views.accountmainchecklist',name='accountmainchecklist'),
+           url(r'^reportFillChecklist/', 'checklist.views.reportchecklist',name='reportchecklist'),
 )
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

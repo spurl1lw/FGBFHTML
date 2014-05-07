@@ -4,9 +4,10 @@
     {% load staticfiles %}
     <link href = "{% static "css/bootstrap.css" %}" rel = "stylesheet">
 		<link href ="{% static "css/bootstrap-responsive.css" %}" rel = "stylesheet">
-
+    <link href="http://www.eyecon.ro/bootstrap-slider/css/slider.css" rel="stylesheet">
 
    		<script src="{% static "js/bootstrap.min.js" %}"></script>
+        <script src="http://www.eyecon.ro/bootstrap-slider/js/bootstrap-slider.js"></script>
 <style>
 #customers
 {
@@ -72,9 +73,20 @@ background-color:#EAF2D3;
 <table id="customers">
 <tr>
   <th>Items</th>
-  <th>Pass</th>
-  <th>Fail</th>
-     <th>N/A</th>
+  <th><div class="btn-group btn-group-justified">
+  <div class="btn-group">
+    <button type="button" class="btn btn-default">Fail  &nbsp &nbsp</button>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-default">N/A  &nbsp &nbsp  &nbsp</button>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-default">Pass  &nbsp</button>
+  </div>
+</div></th>
+
+</div>
+
 </tr>
     <!--tr><th>Salad Bar</th></tr-->
 
@@ -82,9 +94,9 @@ background-color:#EAF2D3;
 
 <tr class="alt">
 <td>{{ Item.description }}</td>
-<td><div align="center"></div><input type="checkbox"> </td>
-<td><div align="center"></div><input type="checkbox"> </td>
-<td><div align="center"></div><input type="checkbox"> </td>
+<td><input type="range" step="1" min="-1" max="1" class="itemvalue"> </td>
+
+
 </tr>
 
 {% endfor %}
@@ -98,7 +110,13 @@ background-color:#EAF2D3;
 
 
 
-
+<script>
+    $(".itemvalue").each(function(){
+        $(this).slider({
+            handle: 'round'
+        })
+    })
+</script>
 
 
 
